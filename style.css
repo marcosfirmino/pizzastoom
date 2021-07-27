@@ -8,12 +8,12 @@
 /*Logomarca PizzaStoom*/
 
 .logo-pizza {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 /*cabeçalho*/
@@ -22,9 +22,10 @@ header {
   background-color: rgb(1, 115, 188);
   display: flex;
   justify-content: start;
-  width: 1190px;
-  height: 100px;
-  margin: auto;
+  width: auto;
+  height: auto;
+  margin-left: 80px;
+  margin-right: 80px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 10px;
@@ -34,9 +35,13 @@ header {
 
 h1 {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   font-weight: 700;
+}
+
+.caixa-titulo {
+  padding: 7px;
 }
 
 /*Subtitulo*/
@@ -161,4 +166,71 @@ button:hover {
   font-size: 42px;
   text-decoration: none;
   
+}
+
+.step-by-step li {
+  display: inline;
+
+  color: black;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.grid {
+  display: grid;
+  margin: auto;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  max-width: 1000px;
+  max-height: auto;
+}
+.grid span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 16px;
+}
+
+.grid :hover {
+  border: 3px rgb(1, 115, 188) solid;
+}
+
+.titulo-create {
+  display: grid;
+  justify-content: center;
+  padding: 20px; 
+}
+
+h3 {
+  color: rgb(245, 165, 77);
+  font-size: 42px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.sub-h3 {
+  font-weight: 600;
+  cursor: auto;
+}
+
+.botao {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botao button {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(1, 115, 188);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
 }
